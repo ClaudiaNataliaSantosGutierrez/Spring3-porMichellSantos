@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--Link de CSS de forma remota de Bootstrap_Llama al recurso-->
+  <!--Mejo manera por peso es utilizarlo de manera remota-->
+  <link rel="stylesheet" href="../css/style2.css">
+  <title>Iniciar Sesión</title>
+</head>
+
+<body">
+ 
+  <section class="fondo2">
+    <h1>BIENVENIDO A SAFE-FIN</h1>
+      
+      <form action="menuprincipal.html" method="POST">
+        <!--en el actio debes poner la direccion del menú-->
+        <br />
+        <legend>INICIO DE SESIÓN</legend>
+        <br />
+        
+        <img src="../img/inicio.png" alt="" class="imagenes">
+        <br><br />  
+        
+        <label for="usuario">Usuario: </label><br />
+        <input type="text" id="usuario" name="usuario" tabindex="1" placeholder="Usuario" size="50" required />
+        <br><br />
+        <br><br />
+        
+
+        <label for="Contraseña">Contraseña: </label><br />
+        <input type="password" id="Contraseña" name="Contraseña" tabindex="2" placeholder="Contraseña" size="50"
+          required />
+        <br><br />
+
+        <button type="submit" tabindex="3"><a href="menuprincipal.html">Ingresar</a></button>
+        <button><a href="registro.html">Registrar</a></button>
+        <br />
+      </form>
+    
+  </section>
+</body>
+
+</html>

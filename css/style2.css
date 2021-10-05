@@ -1,0 +1,15 @@
+.fondo2{
+    width: 60%;
+    margin: auto;
+    background-color: aquamarine;
+    align-content: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    border-radius: 10px;
+}   
+
+.imagenes{
+   width: 20%; 
+   height: 20%;
+}

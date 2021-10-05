@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../css/style2.css" />
+    <title>Registro</title>
+  </head>
+  <body>
+   
+    <form method="POST" action="controller" class="fondo2">
+      <section >
+        <fieldset class="fondo">
+          <h1>REGISTRO DE DATOS</h1>
+          <label for="Nombre">Nombre: </label>
+          <input
+            type="text"
+            id="Nombre"
+            name="Nombre"
+            tabindex="1"
+            placeholder="Escribe tu nombre"
+            required="true"
+          />
+
+          <br /><br />
+
+          <label for="Apellidos">Apellidos: </label>
+          <input
+            type="text"
+            id="Apellidos"
+            name="Apellidos"
+            tabindex="2"
+            placeholder="Escribe tus Apellidos"
+            required="true"
+          />
+
+          <br /><br />
+
+          <label for="Email">Email: </label> <br />
+          <input
+            type="email"
+            id="Email"
+            name="Email"
+            tabindex="3"
+            placeholder="Escribe tu correo"
+            required="true"
+          />
+
+          <br /><br />
+
+          <label for="Edad">Edad: </label> <br />
+          <input
+            type="number"
+            id="Edad"
+            name="Edad"
+            tabindex="4"
+            placeholder="Escribe tu Edad"
+            required="true"
+          />
+
+          <br /><br />
+
+          <label>Genero: </label> <br />
+          <label for="Femenino">Femenino </label>
+          <input
+            type="radio"
+            id="Femenino"
+            name="genero"
+            value="Femenino"
+            tabindex="5"
+            required="true"
+          />
+          <label for="Masculino">Masculino </label>
+          <input
+            type="radio"
+            id="Masculino"
+            name="genero"
+            value="Masculino"
+            tabindex="6"
+            required="true"
+          />
+          <br /><br />
+
+          <label for="Comentairo"
+            >¿Por qué crees que SAFE-FIN te puede ayudar? </label
+          ><br />
+          <textarea
+            name="Comentario"
+            id="Comentario"
+            cols="100 "
+            rows="5"
+            tabindex="7"
+          >
+          </textarea>
+
+          <br /><br />
+
+          <button type="submit"><a href="Inicio.html">Guardar</a></button>
+        </fieldset>
+      </section>
+    </form>
+  </body>
+</html>
